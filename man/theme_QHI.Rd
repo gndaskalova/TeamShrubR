@@ -13,6 +13,6 @@ theme_QHI()
 This function allows you to quickly use a pre-customised theme.
 }
 \examples{
-theme_QHI()
+ggplot() + geom_point(...) + theme_QHI()
 }
 \keyword{theme}
