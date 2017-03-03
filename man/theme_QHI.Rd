@@ -7,12 +7,10 @@
 theme_QHI()
 }
 \arguments{
-\item{theme_bw}{Builds on theme_bw}
-
 \item{theme}{Makes the theme}
 }
 \description{
-This function allows you to quickly use a pre-customised theme (clean theme with angled x axis labels).
+This function allows you to quickly use a pre-customised theme, clean theme with angled x axis labels.
 }
 \examples{
 ggplot() + geom_point(...) + theme_QHI()

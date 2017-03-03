@@ -1,7 +1,6 @@
 #' A ggplot2 function
 #'
-#' This function allows you to quickly use a pre-customised theme (clean theme with angled x axis labels).
-#' @param theme_bw Builds on theme_bw
+#' This function allows you to quickly use a pre-customised theme, clean theme with angled x axis labels.
 #' @param theme Makes the theme
 #' @keywords theme
 #' @export
