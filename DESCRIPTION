@@ -1,10 +1,10 @@
 Package: TeamShrubR
-Title: What the Package Does (one line, title case)
+Title: The TeamShrub R package
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Authors@R: person("Gergana", "Daskalova", email = "gndaskalova@gmail.com", role = c("aut", "cre"))
+Description: Running shrubby functions
 Depends: R (>= 3.3.2)
-License: What license is it under?
+License: Free to use
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1.9000
