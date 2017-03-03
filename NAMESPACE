@@ -2,3 +2,4 @@
 
 export(output.lm)
 export(theme_QHI)
+export(theme_shrub)

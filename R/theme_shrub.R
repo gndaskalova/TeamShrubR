@@ -1,18 +1,16 @@
 #' A ggplot2 function
 #'
-#' This function allows you to quickly use a pre-customised theme (clean theme with angled x axis labels).
-#' @param theme_bw Builds on theme_bw
+#' This function allows you to quickly use a pre-customised theme (no angled x axis labels)
 #' @param theme Makes the theme
 #' @keywords theme
 #' @export
 #' @examples
 #' ggplot() + geom_point(...) + theme_QHI()
 
-theme_QHI <- function(){
+theme_shrub <- function(){
   theme_bw() +
     theme(axis.text = element_text(size = 16),
           axis.title = element_text(size = 20),
-          axis.text.x = element_text(angle = -45, hjust = -0.05),
           axis.line.x = element_line(color="black"), axis.line.y = element_line(color="black"),
           panel.border = element_blank(),
           panel.grid.major.x = element_blank(),
